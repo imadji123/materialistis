@@ -1,0 +1,66 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+        <item name="buttonStyle">@style/Widget.Button</item>
+
+        <item name="colorControlNormal">@color/colorOnBackground</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:colorForeground">@color/colorSecondary</item>
+
+        <item name="android:textColorPrimary">@color/colorOnBackground</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryDark</item>
+        <item name="android:textColorTertiary">@color/colorSecondary</item>
+        <item name="android:textColorHint">@color/colorSecondary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextAppearance.Title1" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="TextAppearance.Title2" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/text_size_regular</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle1" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle2" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">@dimen/text_size_smaller</item>
+    </style>
+
+    <style name="TextAppearance.Body1" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="TextAppearance.Body2" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">@dimen/text_size_smaller</item>
+    </style>
+
+    <style name="TextAppearance.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">@dimen/text_size_tiny</item>
+    </style>
+
+    <style name="TextAppearance.Button" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/text_size_smaller</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+    </style>
+
+    <style name="Widget.Button" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textAppearance">@style/TextAppearance.Button</item>
+    </style>
+
+</resources>
